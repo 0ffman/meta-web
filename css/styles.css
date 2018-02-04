@@ -1,0 +1,46 @@
+body {
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header {
+	background: #369CD6;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #D62225 3px solid;
+}
+header a {
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px;
+}
+.branding {
+	float: left;
+}
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+.branding h1 {
+	margin: 0;
+}
+
+
+
