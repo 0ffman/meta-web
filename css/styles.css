@@ -12,7 +12,7 @@ ul {
 	margin: 0 auto;
 	overflow: hidden;
 }
-
+/*HEADER*/
 header {
 	background: #369CD6;
 	color: #fff;
@@ -42,5 +42,79 @@ header nav {
 	margin: 0;
 }
 
+header .color, header .standard a {
+	color: #000;
+	font-weight: bold;
+}
+header a:hover {
+	font-weight: bold;
+	color: #00FFA9;
+}
+/*BANNER*/
 
+.banner {
+	min-height: 400px;
+	background: url(../images/star_art.jpg) no-repeat 0;
+	text-align: center;
+	color: #fff;
+}
+.banner h1 {
+	margin-top: 80px;
+	margin-bottom: 10px;
+	font-size: 50px;
+}
+.banner p {
+	font-size: 20px;
+}
+/*SUBSCRIBE*/
+
+.subscribe {
+	padding: 15px;
+	color: #fff;
+	background: #369CD6;
+}
+.subscribe h2 {
+	float: left;
+}
+.subscribe form {
+	float: right;
+	margin-top: 20px;
+}
+.subscribe input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+.button{
+	height: 35px;
+	background: #D62225;
+	border: 0;
+	color: #fff;
+	padding: 0 20px;
+}
+/*BOXES*/
+
+.boxes {
+	margin-top: 20px;
+}
+
+.boxes .box {
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+
+.box img {
+	width: 90px;
+}
+/*FOOTER*/
+
+footer {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #D62225;
+	text-align: center;
+	color: #fff;
+}
 
