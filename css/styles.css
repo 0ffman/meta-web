@@ -115,18 +115,32 @@ header a:hover {
 .box img {
 	width: 90px;
 }
-/*MAIN_LEFT*/
+/*ABOUT*/
 article.main_left {
 	float: left;
 	width: 65%;
 }
-/*MAIN_RIGHT*/
-
 aside.main_right {
 	width: 30%;
 	float: right;
 	margin-top: 10px;
 }
+
+/*PRODUCTS*/
+
+ul.products li {
+	list-style: none;
+	padding: 20px;
+	border: #ccc solid 1px;
+	margin-bottom: 5px;
+	background-color: #e6e6e6;
+}
+aside.main_right .contact input,
+aside.main_right .contact textarea {
+	width: 90%;
+	padding: 5px;
+}
+
 /*FOOTER*/
 
 footer {
@@ -135,5 +149,39 @@ footer {
 	background-color: #D62225;
 	text-align: center;
 	color: #fff;
+}
+
+/*MEDIA*/
+
+@media(max-width: 768px) {
+	header .branding,
+	header nav,
+	header nav li,
+	.subscribe h2,
+	.subscribe form,
+	.boxes .box,
+	article.main_left,
+	aside.main_right {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	header {
+		padding-bottom: 20px;
+	}
+	.banner h1 {
+		margin-top: 40px;
+	}
+	.subscribe button,
+	.contact button {
+		width: 100%;
+		display: block;
+	}
+	.subscribe form input[type="email"] {
+		margin-bottom: 5px;
+		width: 100%;
+	}
+	
+
 }
 
